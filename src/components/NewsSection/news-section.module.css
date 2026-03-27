@@ -1,0 +1,15 @@
+.newssection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 40px 10px 40px;
+  height: 280px;
+  justify-content: space-between;
+}
+
+.newssection_title {
+  margin: 60px 40px 10px 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: bold;
+}

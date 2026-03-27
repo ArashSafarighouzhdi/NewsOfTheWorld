@@ -1,0 +1,28 @@
+.recent_news_section {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  cursor: pointer;
+}
+
+.highlight {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .recent_news_section {
+    width: 100% !important;
+    flex-basis: auto !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 2px !important;
+  }
+
+  .recent_news_section {
+    order: 1 !important;
+  }
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=UnifrakturMaguntia&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+}
+
+.headerTitle {
+  text-align: center;
+  font-family: "UnifrakturMaguntia", cursive;
+  font-size: 36px;
+  padding: 8px;
+}
+
+.phone {
+  border: 1.8px solid black;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  justify-content: center;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: auto !important;
+    padding: 20px 10px !important;
+    gap: 15px !important;
+  }
+
+  .headerTitle {
+    font-size: 28px !important;
+    order: -1 !important;
+    padding: 0 !important;
+  }
+
+  .phone {
+    width: 100% !important;
+    justify-content: center !important;
+    margin: 0 !important;
+  }
+}

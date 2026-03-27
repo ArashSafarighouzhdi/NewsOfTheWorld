@@ -1,0 +1,20 @@
+.mainsection {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin: 40px 40px 10px 40px;
+  border-bottom: 1.8px solid black;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .mainsection {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    gap: 40px !important;
+  }
+}

@@ -1,0 +1,29 @@
+.article_news_img {
+  max-width: 100%;
+  padding: 2.5% 2.5% 0 2.5%;
+  max-height: 650px;
+  max-width: 650px;
+}
+
+.article_news_title {
+  padding: 0 2.5% 0 2.5%;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.article_news_news {
+  padding: 0 2.5% 0 2.5%;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.article_news_category {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 2.5% 0 2.5%;
+
+}

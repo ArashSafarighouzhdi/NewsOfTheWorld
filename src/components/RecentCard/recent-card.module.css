@@ -1,0 +1,31 @@
+.card {
+  width: 98%;
+  border-bottom: 2px solid rgb(206, 203, 203);
+  min-height: 140px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.card_news {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  text-align: start;
+  padding-bottom: 5px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.data_news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category_news {
+  color: rgb(169, 167, 167);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  text-transform: capitalize;
+}
